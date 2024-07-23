@@ -1,0 +1,23 @@
+{
+    "projects":[
+        {
+            "id" : "1",
+            "title" : "MNIST Digit Identifier",
+            "description" : "This project uses Neural Network to identify the drawn digit. It's trained on the MNIST data.",
+            "content" : "This is the first post!"
+
+        },
+        {
+            "id": "2",
+            "title" : "Image Recognition",
+            "description" : "An ML algorithm project that identifies faces.",
+            "content" : "This is the 2nd Post"
+        },
+        {
+            "id" : "3",
+            "title" : "Survival Predictor",
+            "description" : "This project utilizes ML algorithms to predict the survival rate.",
+            "content" : "This is the third post."
+        }
+    ]
+}
