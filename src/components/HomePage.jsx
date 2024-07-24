@@ -3,7 +3,7 @@ import Hero from "./Hero";
 import Introduction from "./Introduction";
 import Projects from "./Projects";
 
-function HomePage({posts}){
+function HomePage(){
     return(
         <>
             <div className="first-section" id="top">
