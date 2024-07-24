@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import projectsData from './images/projects.json';
+import projectsData from '../projects.json';
 
 // ------- Project Images Import ----------- //
 import beige from "./images/beige-noise-bg.png";

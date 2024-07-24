@@ -1,4 +1,4 @@
-import projectsData from "./images/projects.json";
+import projectsData from "../projects.json";
 import React from 'react';
 import { Link } from 'react-router-dom';
 
