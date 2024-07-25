@@ -207,3 +207,45 @@ body{
   color: #5D001E;
 }
 
+  /* Styling the Floating Icons in the Hero Component */
+
+.clipart {
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  margin-bottom: 3em;
+  margin-right: 13em;
+  color:#5D001E;
+  opacity: 0.8;
+}
+
+.clipart2 {
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  margin-top: 3em;
+  margin-left: 13em;
+  color:#5D001E;
+  opacity: 0.8;
+}
+
+
+@media(min-width:40em){
+  .clipart{
+    margin-right:20em;
+  }
+
+  .clipart2{
+    margin-left: 20em;
+  }
+}
+
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(0.625rem); }
+  100% { transform: translateY(0); }
+}
+
+.float {
+  animation: float 2s ease-in-out infinite;
+}
