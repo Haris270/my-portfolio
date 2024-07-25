@@ -17,8 +17,8 @@ const Projects = () => {
             
             <div key={project.id} className="theProject container">
                 <Link to={'post/'+ project.id} className='post-link'>
-                <img className="post-img" src={img[index]}/>
-                <div className='post-title'>
+                <img className="project-img" src={img[index]}/>
+                <div className='project-title'>
                     <h1>{project.title}</h1>
                     <p>{project.description}</p>
                 </div>
