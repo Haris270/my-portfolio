@@ -13,7 +13,7 @@ function HomePage(){
                 <Introduction/>
 
                 <div className="projects" id="project">
-                    <h1 className="oswald-project-heading">FEATURED PROJECTS</h1>
+                    <h1 className="projects-heading">FEATURED PROJECTS</h1>
                 
                 <div className="project-div">
 
