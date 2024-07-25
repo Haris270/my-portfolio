@@ -22,10 +22,10 @@ const ContactForm = () => {
         e.preventDefault();
 
         emailjs.send(
-            'service_r3kguhk', //  EmailJS Service ID
-            'template_3a63f4k', //  EmailJS Template ID
+            '***', //  EmailJS Service ID
+            '***', //  EmailJS Template ID
             formData, 
-            'nqf0GyxTnEJwky6Iv' //   EmailJS User ID
+            '*****' //   EmailJS User ID
         )
         .then((response) => {
             console.log('SUCCESS!', response.status, response.text);
