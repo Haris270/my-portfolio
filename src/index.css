@@ -469,5 +469,11 @@ button:hover {
   }
 }
 
+/* -------- Styling ProjectDetail -------------*/
 
+.each-post h1{
+  color: black;
+  margin-top: 100px;
+
+}
 
