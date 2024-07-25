@@ -17,3 +17,111 @@ body{
   width: min(90%, 70.5rem);
 }
 
+/* --------------- Navbar Styling ------------------ */
+
+.top-nav{
+
+  background-color: #f9fafb;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+
+  border-top-color: #5D001E;
+  
+  border-bottom: none;
+  box-shadow: none;
+  box-sizing: border-box;
+
+  top: 0;
+  z-index: 1000;
+  position: fixed;
+ 
+
+}
+
+.menu-icon {
+  font-size: 2rem;
+  cursor: pointer;
+  display: none;
+  
+}
+
+@media (max-width: 768px) {
+  .menu-icon {
+    display: flex;
+  }
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+}
+
+@media (max-width:768px){
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #ee1212;
+    transition: max-height 0.3s ease;
+    overflow: hidden;
+  }
+
+  .nav-menu.open {
+    display: flex;
+  }
+}
+
+
+.nav-links {        /* Display Menu Options Horizontally */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;  
+  list-style: none;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  margin: 0;
+
+  
+}
+
+@media (max-width: 768px){
+  .nav-links{
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav-links li {
+    
+    text-align: center;
+  }
+}
+
+
+.menu-options {     /* Horizontal Menu Option Styling*/
+  display: block;
+  padding: 1rem;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-options:hover {
+  background-color: rgba(0, 136, 22, 0.545);
+}
+
+@media (max-width: 768px){
+  .menu-options{
+    width: 100%;
+    padding: 1rem 0;
+    color: aliceblue;
+  }
+}

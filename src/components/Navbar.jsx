@@ -15,7 +15,7 @@ function Navbar() {
         <>
         <nav className='top-nav'>
             <HashLink to={"/#top"} className='nameLogo'>
-                HarisZ
+                MyName
             </HashLink>  
 
             <div className="menu-icon" onClick={toggleMenu}>
