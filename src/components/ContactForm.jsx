@@ -25,7 +25,7 @@ const ContactForm = () => {
             '****', //  EmailJS Service ID
             '****', //  EmailJS Template ID
             formData, 
-            '****' //   EmailJS User ID
+            '*****' //   EmailJS User ID
         )
         .then((response) => {
             console.log('SUCCESS!', response.status, response.text);
