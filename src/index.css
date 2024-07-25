@@ -149,6 +149,17 @@ body{
   
 }
 
+@media (min-width: 40em){
+  /* .hero > * {
+    flex-basis: 100%;
+} */
+
+.hero > * + * {
+    margin-left: 2em;
+  }
+}
+
+
 .main-pic{    /*Div containing the pic & the icons*/
   display:flex;
   align-items: center;
@@ -168,5 +179,31 @@ body{
   .main-pic img{
     max-height: 15rem;
   }
+}
+
+.my-intro{
+  
+  display: flex; 
+  font-family: "Poppins", sans-serif;
+  color: #141619;
+  
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3125rem;
+  
+}
+
+@media (min-width: 40em){   /* Bigger Intro Font on bigger screen */
+  .my-intro{
+      font-size: 6rem;
+  }
+}
+
+.my-name{        /*Coloring the name in Intro*/
+  color: #5D001E;
 }
 
