@@ -361,3 +361,93 @@ img.project-img{
   padding-bottom: 5px;
 }
 
+
+/* Styling the Contact Form Component */
+
+form {
+  display: flex;
+  flex-direction: row;
+  
+  
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 7rem;
+}
+
+.contact-text{
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-text h1{
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+}
+
+.contact-boxes{
+  flex-direction: column;
+}
+label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 0.5em 1em;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* ------------------ Styling the Footer Component --------------- */
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color:#f4f9fc;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  
+}
+
+.footer h1{
+  display: block;
+  justify-content: center;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  color: #5D001E;
+}
+
+.rightLogo{
+  margin-left: 0.5em;
+}
+
+.footer-logo{
+  height: 1.5rem;
+  width: 1.5rem;
+  /* padding-left: 1rem; */
+}
+
+
+
+@media (min-width: 44em){
+  .footer-logo{
+    height: 2rem;
+    width: 2rem;
+  }
+}
