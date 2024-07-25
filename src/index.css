@@ -274,3 +274,17 @@ body{
   }
 
 }
+
+/* Styling the Projects Section */
+
+.projects{
+
+  margin-top: 6.25rem;
+  background-color: #141619;
+  /* background-color: #5D001E; */
+  width: 100%;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  
+
+}
