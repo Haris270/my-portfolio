@@ -249,3 +249,28 @@ body{
 .float {
   animation: float 2s ease-in-out infinite;
 }
+
+
+/* Styling the Introduction Component */
+
+.intro-box{
+  background-color:#f4f9fc;
+}
+
+.intro-text1, .intro-text2{
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-size: 1rem;
+  font-weight: 300;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  /* color:#5D001E; */
+  color: #141619;
+}
+
+@media (min-width: 44em) {
+  .intro-text1, .intro-text2{
+    font-size: 1.25rem;
+  }
+
+}
