@@ -137,3 +137,36 @@ body{
   font-size: 1.9rem;
   font-weight: 500;
 }
+
+/* Styling the Hero Component */
+
+.hero{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: #f4f9fc;
+  margin-top: 4rem;
+  
+}
+
+.main-pic{    /*Div containing the pic & the icons*/
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.main-pic img{    /*The main Image in the Hero Component */
+  max-height: 10rem;
+  width: auto;
+  border-radius: 50%;
+  margin-top: 2rem;
+  
+}
+
+@media (min-width: 40em){
+  .main-pic img{
+    max-height: 15rem;
+  }
+}
+
