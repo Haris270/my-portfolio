@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
 
 * {
   margin: 0;
@@ -114,7 +116,7 @@ body{
   align-items: center;
 }
 
-.menu-options:hover {
+.menu-options:hover {      /* Change Color while Hovering (Horizontal Options) */
   background-color: rgba(0, 136, 22, 0.545);
 }
 
@@ -124,4 +126,14 @@ body{
     padding: 1rem 0;
     color: aliceblue;
   }
+}
+
+.nameLogo{   /* Style the Name Logo in the Navbar */
+  
+  text-decoration: none;
+  font-family:'Cinzel', serif;
+  /* color: #25274D; */
+  color: #00887A;
+  font-size: 1.9rem;
+  font-weight: 500;
 }
