@@ -10,12 +10,12 @@ function Footer(){
         <div className="footer">
             
             <h1> <LuCopyright/> Muhammad Haris</h1>
-            <div className="footer-links">
-                <Link to={"https://www.linkedin.com/in/muhammad-haris-z/"} target="_blank" rel="noopener noreferrer">
+            <div>
+                <Link to={"https://www.linkedin.com/in/muhammad-haris-z/"} className="footer-links" target="_blank" rel="noopener noreferrer">
                     <FaLinkedin className="footer-logo"/>
                 </Link>
 
-                <Link to={"https://github.com/Haris270"} target="_blank" rel="noopener noreferrer">
+                <Link to={"https://github.com/Haris270"} className="footer-links" target="_blank" rel="noopener noreferrer">
                     <IoLogoGithub className="footer-logo rightLogo"/>
                 </Link>
 

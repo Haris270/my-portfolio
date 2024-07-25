@@ -4,6 +4,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 * {
   margin: 0;
@@ -72,7 +74,7 @@ body{
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: #ee1212;
+    background-color: #f4f9fc;
     transition: max-height 0.3s ease;
     overflow: hidden;
   }
@@ -89,8 +91,9 @@ body{
   align-items: center;  
   list-style: none;
   padding-right: 2rem;
-  padding-top: 1rem;
+  /* padding-top: 0.8rem; */
   margin: 0;
+  margin-top: 0.5em;
 
   
 }
@@ -109,6 +112,7 @@ body{
 
 
 .menu-options {     /* Horizontal Menu Option Styling*/
+  font-family: "Raleway", sans-serif;
   display: block;
   padding: 1rem;
   color: black;
@@ -126,7 +130,7 @@ body{
   .menu-options{
     width: 100%;
     padding: 1rem 0;
-    color: aliceblue;
+    color: #00887A;
   }
 }
 
@@ -345,6 +349,7 @@ img.project-img{
 }
 
 .project-title h1{
+  font-family: "Raleway", sans-serif;
   text-decoration: none;
   color: white;
   font-size: 24px;
@@ -354,11 +359,14 @@ img.project-img{
 }
 
 .project-title p{
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
   font-size: 14px;
-  color: black;
-  padding-top: 10px;
-  padding-left: 5px;
-  padding-bottom: 5px;
+  color: white;
+  padding-top: 0.625rem;
+  padding-left: 0.313rem;
+  padding-bottom: 0.313rem;
+  /* margin-bottom: 0.1rem; */
 }
 
 
@@ -433,6 +441,10 @@ button:hover {
   color: #5D001E;
 }
 
+.footer-links{
+  text-decoration: none;
+}
+
 .rightLogo{
   margin-left: 0.5em;
 }
@@ -440,7 +452,12 @@ button:hover {
 .footer-logo{
   height: 1.5rem;
   width: 1.5rem;
+  
   /* padding-left: 1rem; */
+}
+
+.footer-links .footer-logo{
+  color: black;
 }
 
 
@@ -451,3 +468,6 @@ button:hover {
     width: 2rem;
   }
 }
+
+
+
