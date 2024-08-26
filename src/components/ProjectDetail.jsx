@@ -94,9 +94,21 @@ const ProjectDetails = () => {
     return (
         <div className="each-post container">
             <h1>{project.title}</h1>
-            <img src={img[index]} alt={project.title} />
-            <p>{project.content}</p>
-            
+            {/* <img src={img[index]} alt={project.title} />  */}
+            {/* <p>{project.content}</p> */}
+            <canvas 
+                ref = {canvasRef}
+                width={270}
+                height={270}
+                style={{border: '1px black solid'}}
+                onMouseDown={handleMouseDown}
+                onMouseMove={handleMouseMove}
+                onMouseUp={handleMouseUp}
+            />
+            <button onClick={clearCanvas} className='clear-canvas-btn'>Clear Canvas</button>
+            <button onClick={handlePredict} className='predict-btn'>Predict Digit</button>
+
+            {prediction !== null && <p>Predicted Digit: {prediction}</p>}
         </div>
     );
 };
