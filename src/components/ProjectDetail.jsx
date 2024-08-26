@@ -42,8 +42,16 @@ const ProjectDetails = () => {
         ctx.moveTo(e.nativeEvent.offsetX, e.nativeEvent.offsetY);
     };
 
+    const handleMouseMove = (e) => {
+        if (!isDrawing) return;
+        const canvas = canvasRef.current;
+        const ctx = canvas.getContext('2d');
+        ctx.lineTo(e.nativeEvent.offsetX, e.nativeEvent.offsetY);
+        ctx.stroke();
+    };
 
-    
+
+
 
     const clearCanvas = () => {
         const canvas = canvasRef.current;
