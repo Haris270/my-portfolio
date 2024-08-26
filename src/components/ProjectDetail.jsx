@@ -50,6 +50,10 @@ const ProjectDetails = () => {
         ctx.stroke();
     };
 
+    const handleMouseUp = () => {
+        setIsDrawing(false);
+    };
+
 
 
 
